@@ -6,10 +6,10 @@ const Category = (props) => {
 			<div className="container">
 				<h1 className={'category'}>{props.data.category}</h1>
 				<div className="film-container">
-					{props.data.images.map((element) => {
+					{props.data.images.map((element, index) => {
 						return (
 							<div>
-								<Films image={element}></Films>
+								<Films key={index} image={element}></Films>
 							</div>
 						);
 					})}

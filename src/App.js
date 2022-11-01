@@ -7,10 +7,10 @@ function App() {
 	return (
 		<>
 			<header>
-				<img src={logo}></img>
+				<img src={logo} alt="logo neftlix"></img>
 			</header>
-			{data.map((element) => {
-				return <Category data={element}></Category>;
+			{data.map((element, index) => {
+				return <Category key={index} data={element}></Category>;
 			})}
 		</>
 	);

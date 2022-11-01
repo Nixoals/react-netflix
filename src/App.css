@@ -4,7 +4,6 @@ body{
     color: white;
     font-size: 20px;
     font-family: Helvetica, sans-serif;
-
 }
 
 header{
@@ -17,23 +16,21 @@ header{
 }
 
 header img{
-
     width: 100%;
 }
-
 
 .container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin: 0 0 40px 50px;
-    height: 167px;
+
 }
 
 .category{
-
     margin: 20px 0;
 }
+
 .film-container{
     display: flex;
     overflow: hidden;
@@ -42,12 +39,9 @@ header img{
     
 }
 
-.film{
-    
-
-}
-
 .film img{
+    width: 220px;
     height: 124px;
     object-fit: cover;
+    
 }
